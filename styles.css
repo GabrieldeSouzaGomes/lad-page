@@ -1,0 +1,99 @@
+h1{
+  font-family: Italianno;
+  color: black;
+}
+body{
+  background-image: url(images/5138-background-color.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(236, 22, 15) 0%, rgb(163, 31, 8) 35%, rgb(59, 50, 54) 100%);
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+p {
+  font-size: 30px;
+}
+img{
+ border-radius: 40px;
+ width: 50%; 
+ height: 500px; /* largura da imagem */
+ filter:  drop-shadow(0 0 0.75rem rgb(255, 13, 13));
+ padding-right: 20px;
+}
+h2{
+  text-align: center;
+  color: black;
+}
+section{
+  color: black;
+  display: flex;
+  font-size: 40px;
+  
+}
+main{
+  color: black;
+  display: flex;
+  
+}
+.Tabela{
+  font-size: 20px;
+}
+.ajuste{
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.button-wrapper-cta {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-button {
+  border: none;
+  border-radius: 3em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+}
+
+.button-cta {
+  background-color: #B3282F;
+  color: #fff !important;
+}
+
+.button-cta:hover {
+  background-color: #6687BA;
+}
+form{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+.camisa-preta {
+  background: #fff;
+  transition: .3s;
+}
+
+.camisa-preta:hover {
+  background: #000;
+  background-image: url(camisa.png);
+}
